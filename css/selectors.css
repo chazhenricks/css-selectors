@@ -1,0 +1,63 @@
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+/***************************
+NAV BAR
+****************************/
+
+header {
+	border: 1px solid black;
+}
+header ul {
+	float: right;
+}
+
+header li{
+	list-style-type: none;
+	float: left;
+	padding: .5em 2em;
+}
+header a{
+	text-decoration: none;
+}
+
+/***************************
+TEXT
+****************************/
+
+.disabled  {
+	color: grey;
+}
+
+.active {
+	color: yellow;
+}
+
+.red {
+	color: red;
+}
+
+.blue{
+	color: blue;
+}
+.red-sibling{
+	background-color: red;
+}
+.blue-sibling {
+	background-color: blue;
+}
+
+.grandparent > h4 {
+	border: 1px solid blue;
+}
+
+.promo {
+	font-weight: bold;
+}
+
+footer input {
+	height: 25px;
+}

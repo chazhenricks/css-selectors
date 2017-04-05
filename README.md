@@ -1,0 +1,1 @@
+# Simple static web page to practice using CSS selectors
